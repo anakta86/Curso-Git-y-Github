@@ -55,7 +55,10 @@ Editar: si edito en el remoto  en la consola debo hacer
 $ git pull origin master
 En los commits puedo ver los cambio realizados del repositorio local y el de github
 
-Clase 19
+Clase 19 ¿Cómo funcionan  las llaves publicas y privadas?
+
+Para enviar mensajes y que no lo intercepten persona para hacer daño, se utiliza un proceso de cifrado asimetrico que consiste que tanto el emisor como el receptor tengan una llave publica y una llave privada, para tener comunicación entre las dos partes, cada par de lleves estan ligadas matematicamente, que solo con la llave privada encaja correctamente con la publica para decifrar el mendaje 
+
 Clase 20
 Clase 21
 Clase 22
