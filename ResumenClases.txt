@@ -15,7 +15,46 @@ Clase 14
 Clase 15
 Clase 16
 Clase 17
-Clase 18 Uso de GitHub
+Clase 18 Uso de GitHub: 
+
+GitHub: Es un sitio web donde tengo todos los proyectos con su respectivo código o contenido, por esta razon es considerada la red social del desarrolladore, porque se encuentra los que desarrollador ha reaizado.
+1. Crear cuenta en git, facil y gratuito
+
+2. Tener la configuración de repositorio locar igual al registrado en la cuenta
+
+3. Crear New repostitory - Iniciar respisitorio con README (Buena practica para detallar en que consiste el repositorio)
+Hay muchas licencias para crear y compartir repositorio por el momento seleccioanmos None (Ninguna)
+Al crear el respositorio podemos en Raw:ver el código de archivo plano, en Blame: ver quien tiene la culpa de los cambios, History ver los commit realizado, como el comando git log.
+
+4. traer el repositorio local a GitHub: Clone or download - Clone con HTTPS (por el momento) copiamos url
+
+5. Volver al repositorio
+
+5.1 Asegurar que estamos en el lugar correcto del repositorio y en la rama master
+5.2 Decir a Git agregar origen  remoto de nuestro archivo: $ git remote add origin (url que copiamos anteriormente)
+5.3 Ver que pasa: $ git remote (Enter), vemos que existe origin
+5.4 Ver que pasa verbalmente: $ git remote -v (Enter), indica que tenemos un origin para hacer fetch (Traernos cosas) y un origin para hacer push (Enviar cosas).
+5.5 Enviar al origen la rama master: $ Git push origin master (Enter)
+5.6 Abre ventana para login a GitHub Correo y contraseña
+5.7 Guarda credenciales e inicia hacer push
+
+Error: no se sabe que se ha realiado en el repositorio remoto origin de Git Hub
+5.8 traer lo que tiene en el remoto con el siguiente comando: $ git pull origin master
+
+Se reusa a fucionar el archivo nuevo de README iniciado al crear nuevo repositorio
+5.9 Forzar que esta fusión ocurra: $ git pull origin master --allow-unrelated-histories (Enter)
+5.10 $ ls -al
+5.11 $ git status  (ok)
+
+Ahora si
+5.12 volver a enviar al origen la rama master: $ Git push origin master (Enter)
+5.13 refresco el archivo remoto en GitHub: F5 todo queda actualizado el repositorio de la rama master del local y del remoto
+
+Editar: si edito en el remoto  en la consola debo hacer 
+
+$ git pull origin master
+En los commits puedo ver los cambio realizados del repositorio local y el de github
+
 Clase 19
 Clase 20
 Clase 21
